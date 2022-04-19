@@ -25,6 +25,6 @@ Chart2 = alt.Chart(India_Transposed.reset_index()).mark_bar(color='Pink').encode
                 height=300,
                 title='India Tourism Receipts (Source - World Bank)')
 Chart3=Chart1|Chart2
-st.set_page_config(page_title="World Bank Data for India",layout="wide",initial_sidebar_state="expanded")
+#st.set_page_config(page_title="World Bank Data for India",layout="wide",initial_sidebar_state="expanded")
 st.title("World Bank Data for India")
 st.altair_chart(Chart3)
